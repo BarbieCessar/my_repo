@@ -1,0 +1,36 @@
+start = xml
+#needed to start with xml instead of goodmorning
+xml = element xml {source,\text}  
+source = element source {title, altTitle, author, pubPlace, publisher, date, note} 
+\text = element text {poem+} 
+#fixed all of my elements that needed a +
+title  = element title {level,text}
+level = attribute level {"book"|"inner"}
+altTitle = element altTitle {text} 
+author = element author {text} 
+pubPlace = element pubPlace {where}
+where = attribute where {"NYC"}
+publisher = element publisher {text}
+date = element date {when}
+when = attribute when {"1951"}
+note = element note {text}
+
+poem = element poem {title,lineGroup +} 
+id = attribute id {"harlem", "goodMorning"}
+lineGroup = element lineGroup {line+}
+motif = element motif {text}
+line = element line {n,mixed{ (lineGroup | place | emph | poem | placeName | motif)* } }
+n = attribute n {xsd:integer}
+#way more easier than typing out each number
+emph = element emph {text}
+placeName = element placeName {ref}
+place = element place {ref, type?,text}
+# added ? to type and text 
+type = attribute type {"trainStat"}
+ref = attribute ref {"NYC"| "Ga"| "Fla"| "NYC-Harlem " | "NYC-Brook"| "NYC-Bronx"| "NYC-Man" | "NYC-PennSt" |"PR" | "La" | "Ca" | "Ha"| "Ja"}
+
+
+
+
+
+
