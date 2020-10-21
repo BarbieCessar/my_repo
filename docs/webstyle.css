@@ -1,8 +1,18 @@
 body {
-background-color: #F3EBF7
+
+background-color: #e6f9ff
 ;
-color: #660033;
-font-family: arial, helvetica, sans-serif;
+color: #000000;
+font-family: "Lemon Yellow Sun", Times, serif;
+    }
+    
+    .sansserif {
+    font-family: "GoodDog New", Helvetica, sans-serif;
+    }
+    
+    .monospace {
+    font-family: "Magical Feather", Courier, monospace;
+    
 }
 ol {list-style-type: lower-alpha;
 padding: 5em;
