@@ -1,9 +1,9 @@
 body {
 
-background-color: #e6f9ff
+background-color: #f18973
 ;
 color: #000000;
-font-family: "Lemon Yellow Sun", Times, serif;
+font-family: "Lemon Yellow Sun", serif;
     }
     
     .sansserif {
@@ -11,7 +11,7 @@ font-family: "Lemon Yellow Sun", Times, serif;
     }
     
     .monospace {
-    font-family: "Magical Feather", Courier, monospace;
+    font-family: "Magical Feather",monospace;
     
 }
 ol {list-style-type: lower-alpha;
