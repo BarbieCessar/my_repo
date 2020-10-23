@@ -1,6 +1,6 @@
 body {
 
-background-color: #f18973
+background-color: #FFFFFF
 ;
 color: #000000;
 font-family: "Lemon Yellow Sun", serif;
@@ -14,6 +14,14 @@ font-family: "Lemon Yellow Sun", serif;
     font-family: "Magical Feather",monospace;
     
 }
+h1 monospace {  
+    color:#b76e79;
+	background: transparent url(oceanpic.JPG) no-repeat top left;
+	margin-top: 10px;
+	display: block;
+	width: 219px;
+	height: 87px;
+	float: left;}
 ol {list-style-type: lower-alpha;
 padding: 5em;
     

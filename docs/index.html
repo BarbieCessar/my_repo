@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
     <head> 
-        <style>.serif {
+        <style>
+           /* Fonts */
+            .serif {
     font-family: "Lemon Yellow Sun", serif;
     }
     
@@ -12,7 +14,48 @@
     .monospace {
     font-family: "Magical Feather",  monospace;
     }
-    </style>
+  
+</style>
+        <style>
+            /*Navigation style */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #DFB2A9;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #B78E80;
+}
+</style>
+        <style>
+            /* header style */
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: images/headerpic.jpg;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+</style>
         <title class = "monospace">Barbie Cessar Photography</title>
         <meta charset="UTF-8" />
         <meta name="author" content="Barbie Cessar" />
@@ -27,12 +70,14 @@
  
             
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#news">About</a></li>
-                <li><a href="#contact">Portfolio</a></li>
                 <li><a href="#about">Contact</a></li>
+                <li><a href="#contact">Portfolio</a></li>
+                <li><a href="#news">About</a></li>
+                <li><a class="active" href="#home">Home</a></li>
             </ul>
-        <h1 class = "monospace">Barbie Cessar Photography</h1>
+        <div class="header">
+            <h1 class = "monospace">Barbie Cessar Photography</h1>
+        </div>
         <h2 class = "serif" >Welcome to my personal photography website</h2>
       
         <p class ="sansserif">Hello! My name is Barbie Cessar. I am a junior at <i>Penn State Behrend.</i> I am majoring in Digital art, media, and technology with a minor in makreting. In my spare time I love to take  pictures of the beautiful world around me. </p>
