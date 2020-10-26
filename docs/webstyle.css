@@ -1,6 +1,6 @@
 body {
 
-background-color: #FFFFFF
+background-color: #f6f1ee
 ;
 color: #000000;
 font-family: "Lemon Yellow Sun", serif;
@@ -14,15 +14,48 @@ font-family: "Lemon Yellow Sun", serif;
     font-family: "Magical Feather",monospace;
     
 }
-h1 monospace {  
+h1  monospace{  
     color:#b76e79;
 	background: transparent url(oceanpic.JPG) no-repeat top left;
 	margin-top: 10px;
 	display: block;
+	font-size: 0;
 	width: 219px;
 	height: 87px;
 	float: left;}
 ol {list-style-type: lower-alpha;
 padding: 5em;
     
+}li a {
+  display: block;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+   /*Navigation style */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #DFB2A9;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-family:"Lemon Yellow Sun";
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #B78E80;
 }
