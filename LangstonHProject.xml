@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<book>
+    <mainTitle>Selected Poems of Langston Hughes</mainTitle>
+<handWritten>V</handWritten>
+
+<subtitle>Vintage classics: Vintage books</subtitle>
+<publisher> A Division of Random House, INC. <location place = "NewYork"> New York</location></publisher>
+
+
+    <page218> 
+    <l><l1>Leave me and my name </l1>
+    <l2>Just like I am!</l2>
+    
+    <l3>Futhermore, rub out</l3>
+    <l4>That MRS., too-- </l4>       <handWritten>Feminism! :) lol </handWritten>
+    <l5>I'll have you know   </l5>     
+    <l6>I'm Madam to you!</l6></l>
+    </page218>
+    
+<page219> MONTAGE OF A DREAM DEFERRED</page219>
+    
+    <page220>blank</page220>
+    
+    <page221> 
+        <title titleName = "Dream Boogie">Dream Boogie</title>
+       <l> <l1>Good morning daddy!</l1>
+        <l2>Ain't you heard</l2>
+       <l3> The boogie-woogie rumble</l3>
+       <l4> Of a dream deferred?</l4>
+        
+       <l5> Listen closely;</l5>
+        <l6>You'll hear their feet</l6>
+       <l7> Beating out and . beating out a--
+        </l7>
+        <l8>You think</l8>
+       <l9> It's a happy beat? 
+        </l9>
+       <l10> Listen to it closley;</l10>
+       <l11> Ain't you heard </l11>
+       <l12> something underneath</l12>
+        <l13>like a--</l13>
+        
+        <l14>What did I say?</l14>
+        
+        <l15>Sure,</l15>
+       <l16> I'm happy! </l16>
+        <l17>Take it away!</l17>
+        
+       <l18> Hey, pop!</l18>
+        <l19>Re-bop!</l19>
+        <l20>Mop!</l20>
+        
+       <l21> Y-e-a-h!</l21>
+       </l> </page221>
+        
+        <page222> 
+        <title titleName = "Parade"> Parade</title>
+            <l1>Seven ladies</l1>
+            <l2>and secenteen gentlemen </l2>
+            <l3>at the Elks Club Lounge</l3>
+            <l4><underline>planning planning</underline> a parade: </l4>
+            <!-- Don't know how we should code the error above-->
+           <l5> Grand Marshal in his white suit</l5>
+            <l6>will lead it</l6>
+            <l7>Cadillacs with diginitaries</l7>
+           <l8> will precede it. </l8>
+          <l9>  And behind will come with band and drum </l9>
+            <l10>on foot . . . on foot . . .</l10>
+            <l11>on foot . . .</l11>
+            
+           <l12> Motercycle cops,</l12>
+           <l13> white,</l13>
+           <l14> will speed it</l14>
+            <l15>out of sight</l15>
+           <l16> if they can;</l16>
+           <l17> Solid black</l17>
+           <l18> can't be right.</l18>
+            
+           <l19> Marching . . . marching . . .</l19>
+            <l20>marching . . .</l20>
+            <l21>noon till night . . .</l21>
+            
+          <i> <l22> I never knew </l22>
+            <l23>that many Negroes</l23>
+        <l24>  were on earth,</l24>
+            <l25>did you?</l25>
+            
+           <l26> I never knew!</l26>
+            </i>
+           <l27> PARADE!</l27>
+            
+            </page222>
+        
+   
+</book>
+

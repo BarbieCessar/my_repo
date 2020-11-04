@@ -1,0 +1,23 @@
+start = book
+book = element book {mainTitle, handWritten, subtitle, publisher, page218}  
+
+mainTitle = element mainTitle{text}
+handWritten = element handwritten {text}
+subtitle = element subtitle {text}
+publisher = element publisher {text, location}
+location = element location {place}
+place = attribute place {"New York"}
+
+page218 = element page218 {l | handWritten}
+l = attribute l {xsd:integer}
+
+page219 = element page219 {text}
+
+page220 = element page220 {text}
+
+page221 = element page221 {title | l}
+title = element title {titleName}
+titleName = attribute titleName {"Dream Boogie" | "Parade"}
+
+page222 = element page222 {title | underline| l} 
+underline = element underline {text} 
