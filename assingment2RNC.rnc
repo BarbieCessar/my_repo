@@ -1,0 +1,15 @@
+start = xml
+xml = element xml {header,instructions}
+header = element header {action, text}
+instructions = element instructions {step+} 
+step  = element step {num, mixed{(action|degrees|ingred|altitudeBake|time|quanity)*}}
+num = attribute num {xsd:integer}
+action = element action {type, text}
+time = element time {minutes,text}
+minutes = attribute minutes {text}
+ingred = element ingred {type, text}
+type  = attribute type {text}
+degrees = element degrees {amount,text}
+quanity =  element quanity {amount, text}
+amount = attribute amount {xsd:float}
+altitudeBake = element altitudeBake {mixed{quanity}}

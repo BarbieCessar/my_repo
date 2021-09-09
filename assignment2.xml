@@ -1,0 +1,26 @@
+
+<?xml-model href="assingment2RNC.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <header><action type="make">Make</action> It</header>
+    <instructions><step num="1">Step 1 <action type="preheat">Preheat oven</action> to <degrees
+                amount="375">375° F</degrees>.</step>
+        <step num="2">Step 2 <action type="combine">Combine</action>
+            <ingred type="flour">flour</ingred>, <ingred type="baking soda">baking soda</ingred> and
+                <ingred type="salt">salt</ingred> in small bowl. Beat <ingred type="butter"
+                >butter</ingred>,<ingred type="granulated sugar"> granulated sugar</ingred>, <ingred
+                type="brown sugar">brown sugar</ingred> and <ingred type="vanila extract">vanilla
+                extract</ingred> in large mixer bowl until creamy. Add <ingred type="eggs"
+                >eggs</ingred>, one at a time, beating well after each addition. Gradually beat in
+            flour mixture. Stir in <ingred type="morsels">morsels</ingred> and <ingred type="nuts"
+                >nuts</ingred>. Drop by rounded tablespoon onto ungreased baking sheets.</step>
+        <step num="3">Step 3 <action type="action">Bake</action> for <time minutes="9 to 11">9 to 11
+                minutes</time> or until golden brown.<action type="cool"> Cool</action> on baking
+            sheets for <time minutes="2">2 minutes</time>; remove to wire racks to cool completely.
+                <altitudeBake>For High Altitude Baking <quanity amount="5200">(5,200
+                feet)</quanity>:</altitudeBake>
+            <action type="increase">Increase</action> flour to <quanity amount="2.5">2 1/2</quanity>
+            cups. Add <quanity amount="2">2 </quanity>teaspoons water with flour and reduce both
+            granulated sugar and brown sugar to<quanity amount=".66"> 2/3 </quanity>cup each. Bake
+            drop cookies for 8 to 10 minutes and pan cookie for 17 to 19
+        minutes.</step></instructions>
+</xml>
